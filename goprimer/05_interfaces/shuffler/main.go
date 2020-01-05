@@ -31,4 +31,6 @@ func main(){
 	is:= intSlice{1,2,3,4,5,56,6,7,8,9,8,7,6,}
 	shuffle(is)
 	fmt.Printf("%v\n" ,is)
+	fmt.Printf("%T\n" ,is)
+
 }
