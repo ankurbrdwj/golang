@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	if numberChars, theError := fmt.Printf("Hello World  ! \n"); theError != nil {
+	if _, theError := fmt.Printf("Hello World  ! \n"); theError != nil {
 		os.Exit(1)
 	} /*else {
 		fmt.Printf("Printed %d characters \n", numberChars)

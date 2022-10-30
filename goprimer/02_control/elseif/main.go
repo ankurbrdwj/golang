@@ -12,4 +12,8 @@ func main() {
 	} else if numberChars > 10 {
 		fmt.Printf("Printed %d characters \n", numberChars)
 	}
+	 i:=77;
+	 j := 60.5;
+	sum := float64(i)+j;
+	fmt.Println(sum)
 }

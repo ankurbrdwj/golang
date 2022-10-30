@@ -11,7 +11,7 @@ type Struct struct{
 data int
 }
 
-func (s *struct) Read() {
+func (s *Struct) Read() {
 	fmt.Println("implemented the interface")
 }
 
